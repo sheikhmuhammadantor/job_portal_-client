@@ -5,9 +5,15 @@ import Footer from "../Components/Footer";
 function MainLayout() {
   return (
     <>
-      <Navbar />
-      <Outlet />
-      <Footer />
+      <section className="w-full max-w-[1536px] px-5 mx-auto">
+        <Navbar />
+      </section>
+      <section>
+        <Outlet />
+      </section>
+      <section>
+        <Footer />
+      </section>
     </>
   )
 }

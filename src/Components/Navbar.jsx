@@ -5,8 +5,11 @@ import { Link } from "react-router-dom";
 function Navbar() {
 
   const links = <>
-    <li><Link to="/">Submenu 1</Link></li>
-    <li><Link to="/">Submenu 2</Link></li>
+    <li><Link to="/">Home</Link></li>
+    <li><Link to="/">All Job</Link></li>
+    <li><Link to="/">Add Job</Link></li>
+    <li><Link to="/">My Jobs</Link></li>
+    <li><Link to="/">My Applications</Link></li>
   </>
 
   return (
